@@ -1,70 +1,141 @@
-# Getting Started with Create React App
+# 🌍 Earth Events Monitor
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple React application that displays **real-time natural events happening across the Earth** using NASA’s public API.
 
-## Available Scripts
+This project demonstrates API integration using **traditional React Class Components** and lifecycle methods.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🚀 Live Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* Fetches real-time Earth event data from NASA API
+* Displays natural disasters like:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+  * Wildfires
+  * Storms
+  * Volcanoes
+  * Floods
+* Loading state handling
+* Error handling
+* Responsive grid layout
+* Clean and minimal UI
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🛰️ API Used
 
-### `npm run build`
+**NASA EONET (Earth Observatory Natural Event Tracker)**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+API Endpoint:
+https://eonet.gsfc.nasa.gov/api/v3/events
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🛠️ Technologies Used
 
-### `npm run eject`
+* React (Class Components)
+* JavaScript (ES6)
+* HTML5
+* CSS3
+* Fetch API
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## ⚙️ React Concepts Covered
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+* Class Components
+* Component Lifecycle Methods
+* `componentDidMount()`
+* State Management
+* Conditional Rendering
+* API Fetching
+* Responsive Design
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## 📂 Project Structure
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+src/
+│
+├── components/
+│   ├── EventList.js
+│   ├── EventCard.js
+│   ├── Loader.js
+│   └── ErrorView.js
+│
+├── App.js
+├── App.css
+└── index.js
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## ▶️ Installation & Setup
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+1. Clone the repository
 
-### Analyzing the Bundle Size
+```bash
+git clone https://github.com/your-username/react-earth-events-monitor.git
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+2. Navigate into project folder
 
-### Making a Progressive Web App
+```bash
+cd react-earth-events-monitor
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+3. Install dependencies
 
-### Advanced Configuration
+```bash
+npm install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+4. Start the application
 
-### Deployment
+```bash
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+The app will run at:
+https://tericsoft-earth-event-monitor.vercel.app/
 
-### `npm run build` fails to minify
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 🎯 Purpose of the Project
+
+This project was built to understand:
+
+* How React lifecycle methods work
+* How to fetch external API data
+* Handling loading and error states
+* Building responsive UI using React
+
+---
+
+## 📱 Responsive Design
+
+The application automatically adapts to:
+
+* Mobile devices
+* Tablets
+* Desktop screens
+
+---
+
+## 👨‍💻 Author
+
+Varshith
+
+---
+
+## ⭐ Future Improvements
+
+* Event category filtering
+* Search functionality
+* Map visualization
+* Dark/Light theme toggle
+
+---
+
+## 📄 License
+
+This project is created for learning and educational purposes.
